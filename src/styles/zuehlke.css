@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Zuehlke";
+    src: url("../assets/fonts/zuehlke-webfont.eot") format("eot"),
+    url("../assets/fonts/zuehlke-webfont.woff2") format("woff2"),
+    url("../assets/fonts/zuehlke-webfont.woff") format("woff"),
+    url("../assets/fonts/zuehlke-webfont.ttf") format("truetype"),
+    url("../assets/fonts/zuehlke-webfont.svg") format("svg");
+}
+
+:root {
+    --zuehlke-orange: #ff9900;
+    --zuehlke-dark-gray: #666666;
+    --zuehlke-light-gray: #cccccc;
+    --zuehlke-purple: #985b9c;
+    --zuehlke-bright-blue: #66ccff;
+    --zuehlke-blue: #0099cc;
+    --zuehlke-bright-green: #ccff00;
+    --zuehlke-green: #00cc66;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    z-index: 2;
+    padding: 10px;
+    cursor: pointer;
+    fill: #ff820a;
+}
+
+.home:hover {
+    background-color: #666;
+}

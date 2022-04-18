@@ -1,0 +1,40 @@
+name: build
+on: [ push ]
+jobs:
+  build:
+    runs-on: [ 'ubuntu-latest' ]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-output
+          path: dist/*
+  release:
+    runs-on: [ 'ubuntu-latest' ]
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: release
+      - name: Delete old release artifacts
+        run: rm -rf release/
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build-output
+          path: release
+      - name: Release
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update built bundle
+          branch: release
+          create_branch: true
