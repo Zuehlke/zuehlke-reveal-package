@@ -36,9 +36,9 @@
     border-radius: 8px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
 
@@ -46,15 +46,15 @@
     flex-basis: calc(25% - 2 * 15px);
     min-width: 200px;
     max-width: 400px;
-    color: black;
+    color: white;
     margin: 15px;
     flex-grow: 1;
     border-radius: 8px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
