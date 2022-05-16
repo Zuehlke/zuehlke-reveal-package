@@ -11,8 +11,6 @@
   },
   "devDependencies": {
     "esbuild": "^0.14.36",
-    "highlight.js": "^11.4.0",
-    "marked": "^4.0.12",
     "reveal.js": "^4.3.0"
   }
 }
