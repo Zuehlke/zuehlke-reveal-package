@@ -1,4 +1,4 @@
-# Zühlke Reveal Package
+# Zühlke Reveal Package (Ned Slidedeck)
 
 Package to easily create Zühlke branded [reveal.js](https://revealjs.com) presentations.
 
