@@ -1,0 +1,30 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5em;
+    gap: 30px;
+    text-align: left;
+}
+
+.agenda.slide-background {
+    background: url("../assets/img/zuehlke-agenda-slide.jpg"), center, center;
+    background-size: cover;
+}
+
+.agenda .number {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.agenda .number:after {
+    content: "";
+    border-style: none solid none none;
+    border-right-color: var(--zuehlke-purple);
+    padding-right: 0.3em;
+}
+
+.agenda .title {
+    font-size: 0.8em;
+    padding-left: 0.8em;
+}

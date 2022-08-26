@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/**
+ * Zühlke theme for reveal.js.
+ *
+ */
+.reveal .logo-slide.slide-background {
+    background: url("../assets/img/zuehlke-logo-slide.jpg"), center, center;
+    background-size: cover;
+}
