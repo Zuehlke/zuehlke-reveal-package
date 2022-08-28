@@ -8,8 +8,10 @@
 }
 
 .agenda.slide-background {
-    background: url("../assets/img/zuehlke-agenda-slide.jpg"), center, center;
-    background-size: cover;
+    background: url("../assets/img/zuehlke-agenda-slide.jpg");
+    background-position: center, center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .agenda .number {
