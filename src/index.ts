@@ -6,6 +6,7 @@ import './styles/zuehlke-title-slide.css';
 import './styles/zuehlke-subtitle-slide.css';
 import './styles/zuehlke-agenda-slide.css';
 import './styles/zuehlke-exercise-slide.css';
+import './styles/zuehlke-break-slide.css';
 import './styles/zuehlke-print.css';
 
 import Reveal from "reveal.js";
