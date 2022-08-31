@@ -30,15 +30,16 @@ body {
     color: var(--zuehlke-dark-gray);
 }
 
+/*********************************************
+ * SELECTION
+ *********************************************/
 ::selection {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.99);
+    background: var(--zuehlke-bright-blue);
     text-shadow: none;
 }
 
 ::-moz-selection {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.99);
+    background: var(--zuehlke-bright-blue);
     text-shadow: none;
 }
 
