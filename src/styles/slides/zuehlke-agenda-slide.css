@@ -1,23 +1,32 @@
-.exercise.slide-background {
-    background: url("../assets/img/zuehlke-exercise-slide.jpg");
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5em;
+    gap: 30px;
+    text-align: left;
+}
+
+.agenda.slide-background {
+    background: url("../../assets/img/zuehlke-agenda-slide.jpg");
     background-position: center, center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.exercise .title {
-    font-size: 0.8em;
+.agenda .number {
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-.exercise .title:after {
+.agenda .number:after {
     content: "";
     border-style: none solid none none;
     border-right-color: var(--zuehlke-purple);
     padding-right: 0.3em;
 }
 
-.exercise .description {
+.agenda .title {
     font-size: 0.8em;
     padding-left: 0.8em;
 }

@@ -3,36 +3,31 @@
  * Zühlke theme for reveal.js.
  *
  */
-.reveal .title-slide {
+.reveal .break-slide {
     text-align: left;
 }
 
-.reveal .title-slide.slide-background {
-    background: url("../assets/img/zuehlke-title-slide.jpg");
+.reveal .break-slide.slide-background {
+    background: url("../../assets/img/zuehlke-break-slide.jpg");
     background-position: center, center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.reveal .title-slide > * {
+.reveal .break-slide > * {
     color: var(--zuehlke-white);
     position: relative;
     margin: 0 0 0.3em 0;
 }
 
-.reveal .title-slide h1 {
+.reveal .break-slide h1 {
     font-size: 1.6em;
     margin-top: 4em;
     font-weight: bold;
 }
 
-.reveal .title-slide h2 {
+.reveal .break-slide h2 {
     font-size: 0.8em;
-    font-weight: bold;
-}
-
-.reveal .title-slide h3 {
-    font-size: 0.8em;
-    margin-top: 3em;
+    margin-top: 1em;
     font-weight: normal;
 }
