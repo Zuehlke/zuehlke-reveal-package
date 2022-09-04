@@ -14,17 +14,17 @@ This repo contains everything needed to create Zühlke branded reveal.js present
 A demo is visble at [zuehlke-reveal-demo](https://romanutti.github.io/zuehlke-reveal-demo)
 
 ## Usage
-Replace `<COMMIT_HASH>` in the following snippets with the hash from the latest [commit on the `release` branch](https://github.com/webplatformz/zuehlke-reveal-package/commits/release).
+Replace `<COMMIT_HASH>` in the following snippets with the hash from the latest [commit on the `release` branch](https://github.com/romanutti/zuehlke-reveal-package/commits/release).
 
 Include the **stylesheet** in all TOC and chapter files:
 ```html
 <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/webplatformz/zuehlke-reveal-package@<COMMIT_HASH>/release/index.css">
+      href="https://cdn.jsdelivr.net/gh/romanutti/zuehlke-reveal-package@<COMMIT_HASH>/release/index.css">
 ```
 
 Load and run the **script** in all chapter files:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/webplatformz/zuehlke-reveal-package@<COMMIT_HASH>/release/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/romanutti/zuehlke-reveal-package@<COMMIT_HASH>/release/index.js"></script>
 <script>
 	setupZuehlkeRevealPresentation();
 </script>
