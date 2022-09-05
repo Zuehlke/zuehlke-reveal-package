@@ -1,0 +1,23 @@
+.exercise.slide-background {
+    background: url("../../assets/img/zuehlke-exercise-slide.jpg");
+    background-position: center, center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.exercise .title {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.exercise .title:after {
+    content: "";
+    border-style: none solid none none;
+    border-right-color: var(--zuehlke-purple);
+    padding-right: 0.3em;
+}
+
+.exercise .description {
+    font-size: 0.8em;
+    padding-left: 0.8em;
+}

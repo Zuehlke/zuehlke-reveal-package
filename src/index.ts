@@ -1,9 +1,16 @@
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/plugin/highlight/monokai.css';
+import './styles/fonts/googlecode.css';
+import './styles/slides/zuehlke-logo-slide.css';
+import './styles/slides/zuehlke-title-slide.css';
+import './styles/slides/zuehlke-subtitle-slide.css';
+import './styles/slides/zuehlke-agenda-slide.css';
+import './styles/slides/zuehlke-exercise-slide.css';
+import './styles/slides/zuehlke-break-slide.css';
+import './styles/elements/zuehlke-logo.css';
+import './styles/elements/zuehlke-grid.css';
+import './styles/elements/zuehlke-plus.css';
 import './styles/zuehlke.css';
-import './styles/zuehlke-chapter.css';
 import './styles/zuehlke-print.css';
-import './styles/zuehlke-toc.css';
 
 import Reveal from "reveal.js";
 import RevealMarkdown from "reveal.js/plugin/markdown/markdown.esm";
@@ -15,7 +22,9 @@ export function setupZuehlkeRevealPresentation(): Promise<Reveal> {
         history: true,
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
     });
-    return deck.initialize().then(() => {
+    return deck.initialize({
+        pdfSeparateFragments: false,
+    }).then(() => {
         deck.getPlugin("highlight").hljs.highlightAll();
         return deck;
     });
