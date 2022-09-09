@@ -32,6 +32,13 @@ Load and run the **script** in all chapter files:
 
 Consult the [official documentation of reveal.js](https://revealjs.com) for further information on how to use reveal.js.
 
+### Special Features
+
+* The `comparison` class allows side-by-side comparisons in two or more columns (1 column per child element) of both code samples and regular text content.
+* Using the class `tip` (usually on a fragment) displays a purple text box across the slide. This is useful for additional information, hints or tips related to the current slide.
+* Highlight parts of your text in a bold Zühlke gradient with the `hl` class.
+* Use the `code` class for generic inline code snippets (like in this sentence). There is no special syntax highlighting.
+
 ## Contributing
 
 See the [CONTRIBUTING] document.
