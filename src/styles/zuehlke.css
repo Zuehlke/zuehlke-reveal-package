@@ -206,7 +206,10 @@ body {
  *********************************************/
 .reveal a {
     color: var(--zuehlke-purple);
-    text-decoration: underline var(--zuehlke-purple);
+    text-decoration: underline;
+    text-decoration-color: var(--zuehlke-purple);
+    text-decoration-thickness: 3px;
+    text-underline-offset: .1em;
     -webkit-transition: color .15s ease;
     -moz-transition: color .15s ease;
     transition: color .15s ease;
