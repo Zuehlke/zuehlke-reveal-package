@@ -241,6 +241,32 @@ body {
 }
 
 /*********************************************
+ * COMPARISON
+ *********************************************/
+.reveal .comparison {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: .5em;
+}
+
+.reveal .comparison > div {
+    padding: .5em;
+    background-color: rgba(0, 0, 0, .05);
+    font-size: 0.75em;
+    text-align: left;
+}
+
+.reveal .comparison pre {
+    margin: 0;
+    width: 100%;
+}
+
+.reveal .comparison ul {
+    margin: 0;
+}
+
+/*********************************************
  * INLINE CODE
  *********************************************/
 .reveal .code {
