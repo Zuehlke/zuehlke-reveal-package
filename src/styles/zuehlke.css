@@ -61,22 +61,23 @@ body {
     color: var(--zuehlke-dark-gray);
     font-family: "Zuehlke", sans-serif;
     word-wrap: break-word;
+    margin: 0 0 1em 0;
 }
 
 .reveal h1 {
-    font-size: 2.4em;
+    font-size: 3em;
 }
 
 .reveal h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .reveal h3 {
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 .reveal h4 {
-    font-size: 0.4em;
+    font-size: 1em;
 }
 
 /*********************************************
