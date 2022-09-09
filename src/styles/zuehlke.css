@@ -27,6 +27,7 @@ body {
     font-family: "Zuehlke", sans-serif;
     font-size: 36px;
     font-weight: normal;
+    line-height: 1.2;
     color: var(--zuehlke-dark-gray);
 }
 
@@ -111,6 +112,10 @@ body {
 .reveal ol ul {
     display: block;
     margin-left: 40px;
+}
+
+.reveal li + li {
+    margin-top: .5em;
 }
 
 /*********************************************
