@@ -225,7 +225,7 @@ body {
     left: 50%;
     color: white;
     background-color: var(--zuehlke-purple);
-    padding: .5em;rgb(from var(--color) r g b / 50%)
+    padding: .5em;
     border-radius: .5em;
     transform: translateX(-50%) translateY(-50%) rotate(20deg);
     min-width: 80%;
