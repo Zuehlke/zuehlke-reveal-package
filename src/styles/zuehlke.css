@@ -192,7 +192,7 @@ body {
  *********************************************/
 .reveal .progress {
     background: var(--zuehlke-bright-gray);
-    color: var(--zuehlke-dark-gray);
+    color: var(--zuehlke-purple);
 }
 
 .reveal .progress span {
