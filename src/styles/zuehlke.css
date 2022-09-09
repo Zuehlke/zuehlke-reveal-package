@@ -241,6 +241,18 @@ body {
 }
 
 /*********************************************
+ * INLINE CODE
+ *********************************************/
+.reveal .code {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 2px;
+    color: var(--zuehlke-blue);
+    padding: 0 4px;
+    font-size: 90%;
+    font-family: monospace;
+}
+
+/*********************************************
  * OTHER
  *********************************************/
 .reveal p {
