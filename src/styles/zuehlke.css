@@ -216,6 +216,31 @@ body {
 }
 
 /*********************************************
+ * TIP
+ *********************************************/
+.reveal .tip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: var(--zuehlke-purple);
+    padding: .5em;rgb(from var(--color) r g b / 50%)
+    border-radius: .5em;
+    transform: translateX(-50%) translateY(-50%) rotate(20deg);
+    min-width: 80%;
+    text-align: left;
+}
+
+.reveal .slides section .tip.visible {
+    opacity: .9;
+}
+
+.reveal .tip::before {
+    content: "💡";
+    margin-right: .5em;
+}
+
+/*********************************************
  * OTHER
  *********************************************/
 .reveal p {
@@ -317,4 +342,18 @@ body {
 
 .reveal .slides section .grid li {
     margin-top: 0.8em;
+}
+
+.reveal .warn,
+.reveal .hl {
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(to right bottom, var(--zuehlke-purple), var(--zuehlke-bright-blue));
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.reveal .warn::selection,
+.reveal .hl::selection {
+    color: var(--zuehlke-blue);
 }
