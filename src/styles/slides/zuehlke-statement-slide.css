@@ -23,5 +23,5 @@
     margin-bottom: 0em;
     font-weight: bold;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-width: 0.1px;
 }
