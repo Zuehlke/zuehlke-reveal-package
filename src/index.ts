@@ -2,6 +2,7 @@ import 'reveal.js/dist/reveal.css';
 import './styles/hightlightjs/zuehlke.css';
 import './styles/slides/zuehlke-logo-slide.css';
 import './styles/slides/zuehlke-title-slide.css';
+import './styles/slides/zuehlke-statement-slide.css';
 import './styles/slides/zuehlke-subtitle-slide.css';
 import './styles/slides/zuehlke-agenda-slide.css';
 import './styles/slides/zuehlke-exercise-slide.css';
