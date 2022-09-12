@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/Zuehlke"><img src="https://raw.githubusercontent.com/webplatformz/zuehlke-reveal-package/feature/new-slidedeck/src/assets/img/zuehlke-logo.jpg" alt="Zuehlke Logo" height="90"/></a></p>
+<p align="center"><a href="https://github.com/Zuehlke"><img src="https://raw.githubusercontent.com/webplatformz/zuehlke-reveal-package/main/src/assets/img/zuehlke-logo.jpg" alt="Zuehlke Logo" height="90"/></a></p>
 <h1 align="center">Zühlke Reveal.js Package</h1>
 <p align="center">Package to easily create Zühlke branded reveal.js presentations.</p>
 
