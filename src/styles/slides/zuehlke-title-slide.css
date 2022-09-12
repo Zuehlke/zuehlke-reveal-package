@@ -10,7 +10,7 @@
 .reveal .title-slide.slide-background {
     background: url("../../assets/img/zuehlke-title-slide.jpg");
     background-position: center, center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
