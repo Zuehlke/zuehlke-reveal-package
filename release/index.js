@@ -12301,7 +12301,9 @@
       history: true,
       plugins: [markdown_esm_default, highlight_esm_default, notes_esm_default]
     });
-    return deck.initialize().then(() => {
+    return deck.initialize({
+      pdfSeparateFragments: false
+    }).then(() => {
       deck.getPlugin("highlight").hljs.highlightAll();
       return deck;
     });
