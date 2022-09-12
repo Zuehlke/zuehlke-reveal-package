@@ -5,8 +5,7 @@
 }
 
 .reveal .statement-slide.slide-background {
-    background: url("../../assets/img/zuehlke-statement-slide.jpg") center, center;
-    background-size: cover;
+    background: var(--zuehlke-gradient)
 }
 
 .reveal .statement-slide > * {
