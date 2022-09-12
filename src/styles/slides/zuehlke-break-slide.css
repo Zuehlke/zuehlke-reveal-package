@@ -5,10 +5,8 @@
 }
 
 .reveal .break-slide.slide-background {
-    background: url("../../assets/img/zuehlke-break-slide.jpg");
-    background-position: center, center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url("../../assets/img/zuehlke-break-slide.jpg") center, center;
+    background-size: cover;
 }
 
 .reveal .break-slide > * {

@@ -5,10 +5,8 @@
 }
 
 .reveal .statement-slide.slide-background {
-    background: url("../../assets/img/zuehlke-statement-slide.jpg");
-    background-position: center, center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url("../../assets/img/zuehlke-statement-slide.jpg") center, center;
+    background-size: cover;
 }
 
 .reveal .statement-slide > * {

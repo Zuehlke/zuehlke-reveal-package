@@ -5,10 +5,8 @@
 }
 
 .reveal .title-slide.slide-background {
-    background: url("../../assets/img/zuehlke-title-slide.jpg");
-    background-position: center, center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url("../../assets/img/zuehlke-title-slide.jpg") center, center;
+    background-size: cover;
 }
 
 .reveal .title-slide > * {
