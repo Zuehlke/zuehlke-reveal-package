@@ -17,10 +17,16 @@
     --zuehlke-blue: #0099cc;
     --zuehlke-bright-green: #ccff00;
     --zuehlke-green: #00cc66;
+    --zuehlke-gradient: linear-gradient(to right bottom, var(--zuehlke-purple), var(--zuehlke-bright-blue));
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
     background: var(--zuehlke-white);
+    margin: 0;
 }
 
 .reveal {
@@ -387,7 +393,7 @@ body {
 .reveal .hl {
     color: transparent;
     font-weight: bold;
-    background: linear-gradient(to right bottom, var(--zuehlke-purple), var(--zuehlke-bright-blue));
+    background: var(--zuehlke-gradient);
     background-clip: text;
     -webkit-background-clip: text;
 }
