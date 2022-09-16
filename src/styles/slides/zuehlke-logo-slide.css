@@ -2,5 +2,5 @@
 
 .reveal .logo-slide.slide-background {
     background: url("../../assets/img/zuehlke-logo-slide.jpg") no-repeat center, center;
-    background-size: contain;
+    background-size: cover;
 }
