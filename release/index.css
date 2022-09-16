@@ -2059,6 +2059,84 @@ html.print-pdf .aria-status {
   content: url(./zuehlke-plus-COAVFBE2.svg);
 }
 
+/* src/styles/zuehlke-toc.css */
+.toc {
+  font-family: "Zuehlke", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: var(--zuehlke-dark-gray);
+  background-image: var(--zuehlke-gradient);
+  background-size: 100% calc(100% - 19rem);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0 100px;
+  counter-reset: chapterCounter;
+}
+.toc h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+.toc h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 0;
+}
+.toc header {
+  flex-basis: 100%;
+  padding: 5rem 0 2rem;
+}
+.toc section {
+  flex-basis: calc(25% - 30px);
+  flex-grow: 1;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  min-width: 200px;
+  max-width: 400px;
+  width: 100%;
+  overflow: auto;
+}
+.toc section:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.4);
+}
+.toc section a,
+.toc section a:visited {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.toc section h2 {
+  margin: .5rem 0 1.2rem;
+}
+.toc section h2.counter:before {
+  content: counter(chapterCounter, decimal-leading-zero);
+  counter-increment: chapterCounter;
+  border-right: var(--zuehlke-purple) 4px solid;
+  padding-right: .8rem;
+  margin-right: 1.2rem;
+  font-weight: bold;
+}
+.toc section ul {
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 5px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
 /* src/styles/zuehlke.css */
 @font-face {
   font-family: "Zuehlke";
@@ -2068,6 +2146,11 @@ html.print-pdf .aria-status {
     url(./zuehlke-webfont-H3VTHWZB.woff) format("woff"),
     url(./zuehlke-webfont-JWSSYPNB.ttf) format("truetype"),
     url(./zuehlke-webfont-WK3Q4SLW.svg) format("svg");
+}
+@font-face {
+  font-family: "Zuehlke";
+  src: url(./zuehlke-medium-FC3U5KJF.woff2) format("woff2"), url(./zuehlke-medium-AUMDLVXW.woff) format("woff");
+  font-weight: bold;
 }
 :root {
   --zuehlke-dark-gray: #4d4d4d;
@@ -2086,6 +2169,7 @@ html.print-pdf .aria-status {
 }
 body {
   background: var(--zuehlke-white);
+  margin: 0;
 }
 .reveal {
   font-family: "Zuehlke", sans-serif;
@@ -2358,7 +2442,7 @@ body {
 .reveal .hl {
   color: transparent;
   font-weight: bold;
-  background: linear-gradient(to right bottom, var(--zuehlke-purple), var(--zuehlke-bright-blue));
+  background: var(--zuehlke-gradient);
   background-clip: text;
   -webkit-background-clip: text;
 }
