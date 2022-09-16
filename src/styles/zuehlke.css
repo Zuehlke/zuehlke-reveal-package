@@ -17,6 +17,11 @@
     --zuehlke-blue: #0099cc;
     --zuehlke-bright-green: #ccff00;
     --zuehlke-green: #00cc66;
+    --zuehlke-gradient: linear-gradient(to right bottom, var(--zuehlke-purple) 10%, #A1C2E6);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
