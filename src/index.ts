@@ -10,6 +10,7 @@ import './styles/slides/zuehlke-break-slide.css';
 import './styles/elements/zuehlke-logo.css';
 import './styles/elements/zuehlke-grid.css';
 import './styles/elements/zuehlke-plus.css';
+import './styles/zuehlke-toc.css';
 import './styles/zuehlke.css';
 import './styles/zuehlke-print.css';
 

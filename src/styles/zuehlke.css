@@ -7,6 +7,13 @@
     url("../assets/fonts/zuehlke-webfont.svg") format("svg");
 }
 
+@font-face {
+    font-family: "Zuehlke";
+    src: url("../assets/fonts/zuehlke-medium.woff2") format("woff2"),
+    url("../assets/fonts/zuehlke-medium.woff") format("woff");
+    font-weight: bold;
+}
+
 :root {
     --zuehlke-dark-gray: #4d4d4d;
     --zuehlke-gray: #666666;
@@ -26,6 +33,7 @@
 
 body {
     background: var(--zuehlke-white);
+    margin: 0;
 }
 
 .reveal {
@@ -392,7 +400,7 @@ body {
 .reveal .hl {
     color: transparent;
     font-weight: bold;
-    background: linear-gradient(to right bottom, var(--zuehlke-purple), var(--zuehlke-bright-blue));
+    background: var(--zuehlke-gradient);
     background-clip: text;
     -webkit-background-clip: text;
 }
