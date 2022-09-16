@@ -1898,10 +1898,8 @@ html.print-pdf .aria-status {
 
 /* src/styles/slides/zuehlke-logo-slide.css */
 .reveal .logo-slide.slide-background {
-  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-logo-slide-HR7CMH4H.jpg) no-repeat center, center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* src/styles/slides/zuehlke-title-slide.css */
@@ -1909,10 +1907,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .title-slide.slide-background {
-  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-title-slide-CZA4MQ3N.jpg) no-repeat center, center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 .reveal .title-slide > * {
   color: var(--zuehlke-white);
@@ -1934,15 +1930,34 @@ html.print-pdf .aria-status {
   font-weight: normal;
 }
 
+/* src/styles/slides/zuehlke-statement-slide.css */
+.reveal .statement-slide {
+  text-align: left;
+}
+.reveal .statement-slide.slide-background {
+  background: var(--zuehlke-gradient);
+}
+.reveal .statement-slide > * {
+  color: var(--zuehlke-white);
+  position: relative;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.reveal .statement-slide h1 {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.1px;
+}
+
 /* src/styles/slides/zuehlke-subtitle-slide.css */
 .reveal .subtitle-slide {
   text-align: left;
 }
 .reveal .subtitle-slide.slide-background {
-  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-subtitle-slide-GDYNJNOQ.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .reveal .subtitle-slide > * {
   color: var(--zuehlke-dark-gray);
@@ -1965,10 +1980,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .agenda.slide-background {
-  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .agenda .number {
   font-size: 1.2em;
@@ -1987,10 +2000,8 @@ html.print-pdf .aria-status {
 
 /* src/styles/slides/zuehlke-exercise-slide.css */
 .exercise.slide-background {
-  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-exercise-slide-CWJBIU6J.jpg) no-repeat center, center;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 .exercise .title {
   font-size: 0.8em;
@@ -2012,10 +2023,8 @@ html.print-pdf .aria-status {
   text-align: left;
 }
 .reveal .break-slide.slide-background {
-  background: url(./zuehlke-break-slide-2JULONG2.jpg);
-  background-position: center, center;
+  background: url(./zuehlke-break-slide-2JULONG2.jpg) no-repeat center, center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 .reveal .break-slide > * {
   color: var(--zuehlke-white);
@@ -2070,6 +2079,10 @@ html.print-pdf .aria-status {
   --zuehlke-blue: #0099cc;
   --zuehlke-bright-green: #ccff00;
   --zuehlke-green: #00cc66;
+  --zuehlke-gradient: linear-gradient(to right bottom, var(--zuehlke-purple) 10%, #A1C2E6);
+}
+* {
+  box-sizing: border-box;
 }
 body {
   background: var(--zuehlke-white);
