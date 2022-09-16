@@ -1900,7 +1900,7 @@ html.print-pdf .aria-status {
 .reveal .logo-slide.slide-background {
   background: url(./zuehlke-logo-slide-HR7CMH4H.jpg);
   background-position: center, center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -1911,7 +1911,7 @@ html.print-pdf .aria-status {
 .reveal .title-slide.slide-background {
   background: url(./zuehlke-title-slide-CZA4MQ3N.jpg);
   background-position: center, center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .reveal .title-slide > * {
@@ -2014,7 +2014,7 @@ html.print-pdf .aria-status {
 .reveal .break-slide.slide-background {
   background: url(./zuehlke-break-slide-2JULONG2.jpg);
   background-position: center, center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .reveal .break-slide > * {
