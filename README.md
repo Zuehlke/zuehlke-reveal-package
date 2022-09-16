@@ -38,6 +38,7 @@ Consult the [official documentation of reveal.js](https://revealjs.com) for furt
 * Using the class `tip` (usually on a fragment) displays a purple text box across the slide. This is useful for additional information, hints or tips related to the current slide.
 * Highlight parts of your text in a bold Zühlke gradient with the `hl` class.
 * Use the `code` class for generic inline code snippets (like in this sentence). There is no special syntax highlighting.
+* On «table of contents» pages (TOC): add the class `counter` to chapter headings (`h2`) for automatic numbering
 
 ## Contributing
 
