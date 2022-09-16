@@ -1,17 +1,12 @@
 @charset "UTF-8";
-/**
- * Zühlke theme for reveal.js.
- *
- */
+
 .reveal .subtitle-slide {
     text-align: left;
 }
 
 .reveal .subtitle-slide.slide-background {
-    background: url("../../assets/img/zuehlke-subtitle-slide.jpg");
-    background-position: center, center;
+    background: url("../../assets/img/zuehlke-subtitle-slide.jpg") no-repeat center, center;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .reveal .subtitle-slide > * {

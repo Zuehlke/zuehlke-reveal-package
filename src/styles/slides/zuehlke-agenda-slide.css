@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 .wrapper {
     display: grid;
@@ -8,10 +9,8 @@
 }
 
 .agenda.slide-background {
-    background: url("../../assets/img/zuehlke-agenda-slide.jpg");
-    background-position: center, center;
+    background: url("../../assets/img/zuehlke-agenda-slide.jpg") no-repeat center, center;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .agenda .number {
