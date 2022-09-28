@@ -52,6 +52,7 @@ Consult the [official documentation of reveal.js](https://revealjs.com) for furt
 
 ### Team
 Add the class `team-slide` to the slide's `section` tag and list your team members (`profile` class for each) in a `team` container.
+It supports 1-4 profiles per slide, but more are possible when using wider screens.
 
 ```html
 <section class="team-slide">
