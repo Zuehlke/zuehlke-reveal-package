@@ -1,4 +1,5 @@
 import 'reveal.js/dist/reveal.css';
+import './styles/zuehlke.css';
 import './styles/hightlightjs/zuehlke.css';
 import './styles/slides/zuehlke-logo-slide.css';
 import './styles/slides/zuehlke-title-slide.css';
@@ -12,7 +13,6 @@ import './styles/elements/zuehlke-logo.css';
 import './styles/elements/zuehlke-grid.css';
 import './styles/elements/zuehlke-plus.css';
 import './styles/zuehlke-toc.css';
-import './styles/zuehlke.css';
 import './styles/zuehlke-print.css';
 
 import Reveal from "reveal.js";
