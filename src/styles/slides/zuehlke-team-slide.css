@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.column-container, /* backwards compatibility */
+.reveal .team-slide .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.column-container > div, /* backwards compatibility */
+.reveal .team-slide .profile {
+    display: flex;
+    flex-direction: column;
+    flex: 20% 0 0;
+    padding: 1.2rem;
+    background-color: var(--zuehlke-white);
+}
+
+.column-container .portrait, /* backwards compatibility */
+.reveal .team-slide .profile img {
+    max-width: 100%;
+    margin: 0 0 2rem 0;
+    border: none;
+}
+
+.reveal .team-slide h2 {
+    margin-bottom: .5em;
+}
+
+.column-container div h3, /* backwards compatibility */
+.reveal .team-slide .profile h3 {
+    flex-grow: 1;
+}
+
+.reveal .team-slide.slide-background {
+    background-image: var(--zuehlke-gradient);
+    background-size: 100% 40%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}

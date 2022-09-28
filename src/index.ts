@@ -7,6 +7,7 @@ import './styles/slides/zuehlke-subtitle-slide.css';
 import './styles/slides/zuehlke-agenda-slide.css';
 import './styles/slides/zuehlke-exercise-slide.css';
 import './styles/slides/zuehlke-break-slide.css';
+import './styles/slides/zuehlke-team-slide.css';
 import './styles/elements/zuehlke-logo.css';
 import './styles/elements/zuehlke-grid.css';
 import './styles/elements/zuehlke-plus.css';
