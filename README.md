@@ -40,6 +40,37 @@ Consult the [official documentation of reveal.js](https://revealjs.com) for furt
 * Use the `code` class for generic inline code snippets (like in this sentence). There is no special syntax highlighting.
 * On «table of contents» pages (TOC): add the class `counter` to chapter headings (`h2`) for automatic numbering
 
+### Special Slides
+
+* Agenda
+* Break
+* Exercise
+* Logo
+* Statement
+* Subtitle
+* Title
+
+### Team
+Add the class `team-slide` to the slide's `section` tag and list your team members (`profile` class for each) in a `team` container.
+
+```html
+<section class="team-slide">
+    <h2>About us</h2>
+    <div class="team">
+        <div class="profile">
+            <img src="../img/employees/lusc.jpg">
+            <h3>Lucas Schnüriger</h3>
+            <p>since 2019</p>
+        </div>
+        <div class="profile">
+            <img src="../img/employees/mrom.jpg">
+            <h3>Marco Romanutti</h3>
+            <p>since 2021</p>
+        </div>
+    </div>
+</section>
+```
+
 ## Contributing
 
 See the [CONTRIBUTING] document.
