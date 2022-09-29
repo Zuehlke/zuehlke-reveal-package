@@ -2257,13 +2257,14 @@ body {
   position: relative;
   font-size: 1.6em;
   font-weight: bold;
+  line-height: normal;
 }
 .reveal .statement-slide h1 {
   margin-top: 3em;
   margin-bottom: 0em;
   font-weight: bold;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-width: 1px;
 }
 
 /* src/styles/slides/zuehlke-subtitle-slide.css */
