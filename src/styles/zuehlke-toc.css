@@ -41,7 +41,7 @@
     flex-grow: 1;
     background-color: white;
     padding: 20px;
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--zuehlke-box-shadow);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
     min-width: 200px;
     max-width: 400px;
