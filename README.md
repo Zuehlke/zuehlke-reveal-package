@@ -11,7 +11,7 @@
 Reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations. The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [markdown support](https://revealjs.com/markdown/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
 
 This repo contains everything needed to create Zühlke branded reveal.js presentations.
-A demo is visble at [zuehlke-reveal-demo](https://romanutti.github.io/zuehlke-reveal-demo)
+A demo is visble [here](https://zuehlke.github.io/zuehlke-reveal-package) 👀
 
 ## Usage
 Replace `<COMMIT_HASH>` in the following snippets with the hash from the latest [commit on the `release` branch](https://github.com/Zuehlke/zuehlke-reveal-package/commits/release).
