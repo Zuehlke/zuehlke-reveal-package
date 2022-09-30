@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Zühlke Reveal Package Demo</title>
+
+		<!-- Add your Zuehlke icon -->
+		<link rel="icon" href="./src/assets/img/zuehlke-logo.jpg">
+		<!-- Reference the Zuehlke stylesheet-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zuehlke/zuehlke-reveal-package@12d464d3ae3c5bbe96af93ece05bd5ebeaabefbe/release/index.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Example of title slide -->
+				<section class="title-slide" id="title-slide">
+					<h1>Title slide</h1>
+					<h2>Date, Author</h2>
+					<h3>Tell what the presentation is about</h3>
+				</section>
+
+				<!-- Example of logo slide -->
+				<section class="logo-slide"></section>
+
+				<!-- Example of agenda slide -->
+				<section class="agenda">
+					<div class="wrapper">
+						<div>
+							<span class="number">01</span>
+							<span class="title">Introduction</span>
+						</div>
+						<div>
+							<span class="number">02</span>
+							<span class="title">About us</span>
+						</div>
+						<div>
+							<span class="number">03</span>
+							<span class="title">Why Zühlke?</span>
+						</div>
+						<div>
+							<span class="number">04</span>
+							<span class="title">Your goals</span>
+						</div>
+						<div>
+							<span class="number">05</span>
+							<span class="title">Our vision</span>
+						</div>
+						<div>
+							<span class="number">06</span>
+							<span class="title">Further challenges</span>
+						</div>
+						<div>
+							<span class="number">07</span>
+							<span class="title">Summary</span>
+						</div>
+						<div>
+							<span class="number">08</span>
+							<span class="title">Q&A</span>
+						</div>
+					</div>
+				</section>
+
+				<!-- Example of team slide -->
+				<section class="team-slide">
+					<h2>About us</h2>
+					<div class="team">
+						<div class="profile">
+							<img src="./src/assets/img/portrait.png">
+							<h3>Name and Surname</h3>
+							<p>Some infos or quotes can be placed here</p>
+							<p>joined 2022</p>
+						</div>
+						<div class="profile">
+							<img src="./src/assets/img/portrait.png">
+							<h3>Name and Surname</h3>
+							<p>Some infos or quotes can be placed here</p>
+							<p>joined 2022</p>
+						</div>
+						<div class="profile">
+							<img src="./src/assets/img/portrait.png">
+							<h3>Name and Surname</h3>
+							<p>Some infos or quotes can be placed here</p>
+							<p>joined 2022</p>
+						</div>
+						<div class="profile">
+							<img src="./src/assets/img/portrait.png">
+							<h3>Name and Surname</h3>
+							<p>Some infos or quotes can be placed here</p>
+							<p>joined 2022</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Example of subtitle slide -->
+				<section class="subtitle-slide">
+					<h1>Subtitle slide</h1>
+				</section>
+
+				<!-- Example of statement slide -->
+				<section class="statement-slide">
+					<h1>Statement slide</h1>
+					<h2>This slide is great for highlighting all the catchy, important points of a presentation.</h2>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>Slides can be nested inside of each other.</p>
+						<p>Use the <em>Space</em> key to navigate through all slides.</p>
+						<br>
+						<a href="#/2/1" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<a href="#/2">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a>
+					</section>
+				</section>
+
+				<!-- Example of hidden slide -->
+				<section data-visibility="hidden">
+					<h2>Hidden Slides</h2>
+					<p>
+						This slide is visible in the source, but hidden when the presentation is viewed. You can show all hidden slides by setting the `showHiddenSlides` config option to `true`.
+					</p>
+				</section>
+
+				<!-- Example of code slide -->
+				<section data-auto-animate>
+					<h2 data-id="code-title">Pretty Code</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    ...
+						  );
+						}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+				</section>
+
+				<!-- Example of animated code slide -->
+				<section data-auto-animate>
+					<h2 data-id="code-title">With animations</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,7-11"><script type="text/template">
+						import React, { useState } from "react";
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+							<div>
+								<p>You clicked {count} times</p>
+								<button onClick={() => setCount(count + 1)}>Click me</button>
+							</div>
+						  );
+						}
+					</script></code></pre>
+				</section>
+
+				<!-- Example of fragments -->
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+				</section>
+
+				<!-- Example of exercise slide -->
+				<section class="exercise">
+					<div>
+						<span class="title">Task</span>
+						<span class="description">Of course our slidedeck also covers exersise slides. Describe the task here.</span>
+					</div>
+				</section>
+
+				<!-- Example of interconnection slide -->
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<!-- Example of break slide -->
+				<section class="break-slide">
+					<h1>Take a breath</h1>
+					<h2>And while we are here: Pressing B or . pauses the presentation</h2>
+				</section>
+
+				<!-- Example of overview slide -->
+				<section>
+					<h2>Point of View</h2>
+					<p>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+				</section>
+
+				<!-- Example of speaker slide -->
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://revealjs.com/speaker-view/">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<!-- Example of pdf export -->
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://revealjs.com/pdf-export/">exported to PDF</a>, here's an example:</p>
+					<iframe data-src="./src/assets/presentation-print.pdf" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Reference the used plugins, including the Zuehlke one -->
+		<script src="https://cdn.jsdelivr.net/gh/Zuehlke/zuehlke-reveal-package@12d464d3ae3c5bbe96af93ece05bd5ebeaabefbe/release/index.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+
+		<!-- Setup presentation -->
+		<script>
+			setupZuehlkeRevealPresentation();
+		</script>
+	</body>
+</html>
