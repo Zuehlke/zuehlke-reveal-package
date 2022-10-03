@@ -10,7 +10,7 @@
 
 Reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations. The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [markdown support](https://revealjs.com/markdown/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
 
-This banch contains a demo presentation, visble at [zuehlke-reveal-demo](https://romanutti.github.io/zuehlke-reveal-demo)
+This banch contains a demo presentation, visble at [zuehlke-reveal-demo](https://zuehlke.github.io/zuehlke-reveal-package)
 
 ## Contributing
 
