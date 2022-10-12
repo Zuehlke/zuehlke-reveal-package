@@ -31,7 +31,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
     <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/title-slide.png" width="700"/>
 </p>
 
-#### Logo
+### Logo
 The `logo-slide` consist of a logo-only slide.
 A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package/#/logo-slide).
 
@@ -44,7 +44,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
     <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/logo-slide.png" width="700"/>
 </p>
 
-#### Agenda
+### Agenda
 Use the class `agenda-slide` to create an agenda for your presentation.
 The classes `number`and `title` can be used to set your agenda entries.
 A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package/#/agenda-slide).
@@ -93,7 +93,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
     <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/agenda-slide.png" width="700"/>
 </p>
 
-#### Team
+### Team
 Add the class `team-slide` to the slide's `section` tag and list your team members (`profile` class for each) in a `team` container.
 It supports 1-4 profiles per slide, but more are possible when using wider screens.
 A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package/#/team-slide).
@@ -135,7 +135,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
     <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/team-slide.png" width="700"/>
 </p>
 
-#### Subtitle
+### Subtitle
 Add the class `subtitle-slide` to add a slide containing only the subtitle of the next topic.
 A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package/#/subtitle-slide).
 
@@ -151,7 +151,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 </p>
 
 
-#### Statement
+### Statement
 With the `statement-slide` all the catchy, important points of a presentation can be highlighted.
 A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package/#/statement-slide).
 
@@ -167,20 +167,20 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
     <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/statement-slide.png" width="700"/>
 </p>
 
-### Features
-#### Side-by-side comparison
+## Features
+### Side-by-side comparison
 The `comparison` class allows side-by-side comparisons in two or more columns (one column per child element) of both code samples and regular text content.
 
-#### Tips
+### Tips
 Using the class `tip` (usually on a fragment) displays a purple text box across the slide. This is useful for additional information, hints or tips related to the current slide.
 
-#### Highlighting text
+### Highlighting text
 Highlight parts of your text in a bold Zühlke gradient with the `hl` class.
 
-#### Inline code snippets
+### Inline code snippets
 Use the `code` class for generic inline code snippets (like in this sentence). There is no special syntax highlighting.
 
-#### Automatic numbering
+### Automatic numbering
 On «table of contents» slides (TOC): Add the class `counter` to chapter headings (`h2`) for automatic numbering.
 
 ## Contributing
