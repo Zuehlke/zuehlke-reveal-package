@@ -2280,10 +2280,8 @@ body {
   position: relative;
   margin-left: 12.5em;
   margin-bottom: 0.0em;
-}
-.reveal .subtitle-slide h1 {
-  font-size: 1.2em;
   margin-top: 2em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -2297,7 +2295,7 @@ body {
 }
 .agenda.slide-background {
   background: url(./zuehlke-agenda-slide-BXFRWY2P.jpg) no-repeat center, center;
-  background-size: contain;
+  background-size: cover;
 }
 .agenda .number {
   font-size: 1.2em;
