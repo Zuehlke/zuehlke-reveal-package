@@ -10,7 +10,7 @@
 
 .agenda.slide-background {
     background: url("../../assets/img/zuehlke-agenda-slide.jpg") no-repeat center, center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .agenda .number {
