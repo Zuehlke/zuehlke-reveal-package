@@ -28,7 +28,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/title-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/title-slide.png" width="700"/>
 </p>
 
 ### Logo
@@ -41,7 +41,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/logo-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/logo-slide.png" width="700"/>
 </p>
 
 ### Agenda
@@ -90,7 +90,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/agenda-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/agenda-slide.png" width="700"/>
 </p>
 
 ### Team
@@ -132,7 +132,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/team-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/team-slide.png" width="700"/>
 </p>
 
 ### Subtitle
@@ -147,7 +147,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/subtitle-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/subtitle-slide.png" width="700"/>
 </p>
 
 
@@ -164,7 +164,7 @@ A live demo is available [here](https://zuehlke.github.io/zuehlke-reveal-package
 
 #### Example
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/feature/documentation/src/assets/img/examples/statement-slide.png" width="700"/>
+    <img src="https://raw.githubusercontent.com/Zuehlke/zuehlke-reveal-package/main/src/assets/img/examples/statement-slide.png" width="700"/>
 </p>
 
 ## Features
