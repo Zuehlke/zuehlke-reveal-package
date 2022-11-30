@@ -171,27 +171,24 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal section img {
+.reveal img {
     margin: 15px 0;
+}
+
+.reveal img.bordered {
     background: rgba(255, 255, 255, 0.12);
     border: 4px solid #444444;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-.reveal section img.plain {
-    border: 0;
-    box-shadow: none;
-}
-
 .reveal a img {
-    -webkit-transition: all .15s linear;
-    -moz-transition: all .15s linear;
-    transition: all .15s linear;
+    -webkit-transition: box-shadow .15s linear;
+    -moz-transition: box-shadow .15s linear;
+    transition: box-shadow .15s linear;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .reveal a:hover img {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: var(--zuehlke-dark-gray);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
